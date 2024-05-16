@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="color-switcher">
+        <div class="switcher-btn">
+            <i class="fas fa-cog"></i>
+        </div>
+        <h3>select color</h3>
+    <div class="theme-buttons-container">
+        <span class="theme-buttons" data-color="#8492f6, rgb(235, 165, 133" style="background-image:linear-gradient( #8492f6, rgb(235, 165, 133)) ;"></span>
+        <span class="theme-buttons" data-color="#f1ed1e, rgb(80, 175, 252" style="background-image:linear-gradient( #f1ed1e, rgb(80, 175, 252)) ;"></span>
+        <span class="theme-buttons" data-color="#229af6, rgb(173, 138, 249" style="background-image:linear-gradient( #229af6, rgb(173, 138, 249)) ;"></span>
+        <span class="theme-buttons" data-color="#60f771, rgb(253, 253, 79" style="background-image:linear-gradient( #60f771, rgb(253, 253, 79)) ;"></span>
+        <span class="theme-buttons" data-color="#f7abd2, rgb(204, 169, 239" style="background-image:linear-gradient( #f7abd2, rgb(204, 169, 239)) ;"></span>
+        <span class="theme-buttons" data-color="#99c89c, rgb(136, 188, 151" style="background-image:linear-gradient( #99c89c, rgb(136, 188, 151)) ;"></span>
+        <span class="theme-buttons" data-color="#8296d1, rgb(166, 207, 222" style="background-image:linear-gradient( #8296d1, rgb(166, 207, 222)) ;"></span>
+        <span class="theme-buttons" data-color="#c75353, rgb(230, 44, 62" style="background-image:linear-gradient( #c75353, rgb(230, 44, 62)) ;"></span>
+        <span class="theme-buttons" data-color="#dd7c94, rgb(248, 193, 125" style="background-image:linear-gradient( #dd7c94, rgb(248, 193, 125)) ;"></span>
+    </div>
+    </div>
+    
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-Do List <img src="To-Do-Img/icon.png"></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="add your text">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="list-container">
+                <!-- <li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+            </ul>
+        </div>
+    </div>
+<script src="script.js"></script>
+<script src="script2.js"></script>
+</body>
+</html>
